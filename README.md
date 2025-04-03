@@ -140,12 +140,3 @@ https://www.python.org/downloads/
     * HuggingFaceH4/zephyr-7b-beta
     * SpeechRecognition
     * Pandas, NumPy
-
-## 👥 Team
-
-* **Rajesh Mishra** 
-* **Sunil Behera**
-* **Sudeb Kar**
-* **Bhabesh Barik**
-* **Manoj Pallai**
----
