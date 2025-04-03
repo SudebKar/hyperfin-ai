@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperfin</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #232526, #414345);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            width: 80%;
+            max-width: 1200px;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        input {
+            width: 95%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        button {
+            background: #1abc9c;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #16a085;
+        }
+
+        #result {
+            width: 100%;
+            min-height: 200px;
+            max-height: 500px;
+            /* ✅ Prevents excessive height */
+            overflow-y: auto;
+            /* ✅ Enables vertical scrolling */
+            padding: 15px;
+            /* ✅ Better spacing */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            /* ✅ Slight transparency for a cleaner look */
+            font-size: 16px;
+            font-family: "Arial", sans-serif;
+            /* ✅ Ensures readability */
+            white-space: pre-wrap;
+            /* ✅ Preserves formatting (line breaks) */
+            word-wrap: break-word;
+            /* ✅ Prevents text overflow */
+            text-align: justify;
+            /* ✅ Improves readability */
+        }
+
+        .notification-icon {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #f39c12;
+            color: white;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .notification-popup {
+            display: none;
+            position: fixed;
+            top: 60px;
+            right: 20px;
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            width: 600px;
+        }
+
+        .notification-popup p {
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: justify;
+            /* ✅ Better text alignment */
+            max-height: 800px;
+            /* ✅ Prevents it from growing too big */
+            overflow-y: auto;
+            /* ✅ Adds scrolling if content is too large */
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Dark transparent background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Modal content box */
+        .modal-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 600px;
+            text-align: left;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            overflow-y: auto;
+            /* Allows scrolling inside */
+            max-height: 80vh;
+            /* Prevents modal from being too large */
+        }
+
+        /* OK Button */
+        .modal-content button {
+            background-color: #1abc9c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        .modal-content button:hover {
+            background-color: #16a085;
+        }
+
+        #notificationText {
+            white-space: pre-wrap;
+            /* Preserve formatting and wrap text */
+            word-wrap: break-word;
+            /* Prevent long words from overflowing */
+            max-height: 60vh;
+            /* Set max height to allow scrolling */
+            overflow-y: auto;
+            /* Enable scrolling for long notifications */
+            font-family: Arial, sans-serif;
+            /* Ensure good readability */
+            padding: 10px;
+            border: 1px solid #ddd;
+            /* Optional: Adds a light border */
+            background: #f9f9f9;
+            /* Optional: Light background for better visibility */
+            border-radius: 5px;
+            /* Optional: Rounded corners */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome, Customer {{ customer_id }}</h1>
+        <form method="post" action="/search/" onsubmit="event.preventDefault(); textSearch();">
+            {% csrf_token %}
+            <input type="text" id="searchBox" name="query" placeholder="Type your search here...">
+            <button type="submit">Search</button>
+        </form>
+        <button onclick="voiceSearch()">🎤 Voice Search</button>
+        <div id="result"></div>
+    </div>
+    <div class="notification-icon" onclick="showNotification()">🔔1</div>
+
+    <!-- Notification Modal -->
+    <div id="notificationModal" class="modal">
+        <div class="modal-content">
+            <h3>Notification</h3>
+            <pre id="notificationText">{{ notification }}</pre>
+            <button onclick="closeNotification()">OK</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Ensure modal is hidden on first load
+            document.getElementById("notificationModal").style.display = "none";
+        });
+
+        function showNotification() {
+            let modal = document.getElementById("notificationModal");
+            let textElement = document.getElementById("notificationText");
+
+            if (textElement.innerHTML.trim() === "") {
+                textElement.innerHTML = "No new notifications."; // Show default text if empty
+            }
+            modal.style.display = "flex"; // Show modal
+        }
+
+        // Close the modal when clicking OK
+        function closeNotification() {
+            document.getElementById("notificationModal").style.display = "none";
+        }
+
+        // Close modal if user clicks outside of it
+        window.onclick = function (event) {
+            let modal = document.getElementById("notificationModal");
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        };
+    </script>
+    <script src="{% static 'script.js' %}"></script>
+
+</body>
+
+</html>

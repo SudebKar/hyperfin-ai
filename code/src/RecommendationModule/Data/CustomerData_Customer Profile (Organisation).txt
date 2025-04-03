@@ -1,0 +1,9 @@
+Customer_Id	Industry	Financial Needs	Preferences	Revenue (in Dollars)	No. of employees
+ORG_US_004	Fashion And Clothing	Supply Chain Financing, Inventory Loans, Retail Banking	Influencer Marketing, International Expansion, Sustainable Fabrics	150M-200M	800-1500
+ORG_US_001	IT Services and Software Development	Business Loans, Payment Processing, Treasury Service	Cloud Services, Employee Benefits, International Expansion	50M-80M	500-1000
+ORG_US_005	Sports Equipment and Apparel	Business Loans, Sponsorship Financing, Digital Payment	Digital Athlete Sponsorship, A&C, E-commerce Tech	80M-120M	500-1000
+ORG_US_002	Agriculture and Organic Food Production	Agriculture Loans, Supply Chain Financing, POS Banking	Farm Equipment, Distribution Channels, R&D on Sustainable Farming	20M-30M	200-500
+ORG_US_017	Textile and Sustainable Fabrics	Green Loans, Supply Chain Financing, Digital Payments, Liberal Sourcing, International Logistics	100M-150M	500-1300	
+ORG_US_007	Textile and Sustainable Fabrics	High Net Worth Banking, Investment Management	1-Market Research, Alternative Investments, Private Equity	100M-150M	100-200
+ORG_US_003	Financial Services and Wealth Management	High Net Worth Banking, Expansion Loans, Payment Processing	Digital Innovation, Limited Edition Collections, Global Marketing	500M-700M	1000-2500
+ORG_US_006	Luxury Fashion and Apparel	High Net Worth Banking, Expansion Loan, Payment	Payment, Digital Innovation, Limited Edition Collections, Global Marketing	500M-700M	1000-2500

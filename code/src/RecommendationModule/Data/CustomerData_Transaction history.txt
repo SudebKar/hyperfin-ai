@@ -1,0 +1,20 @@
+Customer_Id	Product_Id	Transaction Type	Category	Amount (In Dollars)	Purchase_Date	Payment Mode
+CUST2025A	201	Luxury Shopping	Gucci	3000	2025-01-05 00:00:00	Credit Card
+ORG_US_004	202	Retail Space Lease	New Flagship store	500000	2025-02-10 00:00:00	Wire Transfer
+CUST2025S	203	Luxury Travel Booking	London Business Trip	4500	2025-02-10 00:00:00	Amex Platinum
+ORG_US_007	204	Research & Development	Sustainable Fabric Innovations	2500000	2025-02-28 00:00:00	Wire Transfer
+CUST2025A	205	Stock Investment	Equity	25000	2025-01-02 00:00:00	Auto Debit
+CUST2025A	206	Travel Booking	International Flight	5000	2025-02-17 00:00:00	Credit Card
+ORG_US_002	207	Marketing Promotions	Branding and Social Media Ads	150000	2025-03-30 00:00:00	Ach Debit
+CUST2025U	208	Investment Contribution	Hedge Fund	50000	2024-12-10 00:00:00	Wire Transfer
+ORG_US_006	209	Fabric Procurement	Italian Silk & Cashmere	1000000	2025-02-23 00:00:00	Bank Wire
+CUST2025E	210	Flight Booking	Newyork to Tokyo	1200	2025-03-01 00:00:00	Chase Sapphire Travel Card
+ORG_US_006	211	Expansion Loan	New Flagship stores	50000000	2025-01-15 00:00:00	Business Loan
+CUST2025A	212	Loan EMI	Car Loan	1000	2025-03-05 00:00:00	Auto Debit
+CUST2025B	213	IRA Contribution	Vanguard	500	2025-01-10 00:00:00	Net Banking
+ORG_US_006	214	E-Commerce Tech Investment	AI-Powered Personalization	7000000	2025-03-05 00:00:00	Bank Transfer
+ORG_US_001	215	Grocery Shopping	Costco	100	2025-01-20 00:00:00	Debit Card
+ORG_US_001	216	Cloud Services Fees	AWS and Microsoft Azure	100000	2025-02-20 00:00:00	Corporate Card
+CUST2025D	217	Mortgage Payment	Home Loan Repayment	3500	2025-03-05 00:00:00	Auto Debit
+CUST2025P	218	BNPL Purchase	PlayStation	800	2025-01-25 00:00:00	Affirm
+ORG_US_005	219	Technology Investment	AI-Powered E-commerce Platform	3500000	2024-09-13 00:00:00	Business Loan

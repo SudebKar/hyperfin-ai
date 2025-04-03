@@ -1,0 +1,21 @@
+Customer_Id	Post_Id	Platform	Content	Timestamp	Sentiment_Score	Intent
+ORG_US_007	8810	Twitter	Navigating fluctuations raw material prices!! Cash Flow planning is KEY!	2025-01-16 19:27:00	0.4	Financial Management Concerns
+CUST2025A	1231	Twitter	Loving the new fashion trends this season!	2025-01-01 10:00:00	0.8	Fashion Interest
+CUST2025I	4656	Facebook	Just finished a 5K run! Need new running shoes. Any suggestions?	2025-01-03 12:45:00	0.7	Shopping Interest
+ORG_US_006	1155	Facebook	Exciting collaborations coming soon!! Guess which celeb is joining our campaign?	2025-03-02 18:22:00	0.7	Audience Engagement
+CUST2025B	5651	Facebook	Need to start saving more. Thinking of opening a deposit account.	2025-03-01 18:20:00	0	Savings Planning
+ORG_US_007	4477	Reddit	Whats the best way to integrate blockchain for textile supply chain transparency?	2024-10-13 09:34:00	0.6	Tech Innovation Interest
+CUST2025I	4544	Twitter	Struggling to stick to my budget this month.	2025-01-18 12:15:00	-0.5	Budget Concern
+CUST2025P	3455	Instagram	Trying out the new Tesla self-driving update. Feels like future!!	2025-01-05 09:10:00	0.75	Tech Enthusiasm
+CUST2025H	1244	Twitter	Why do banks charge so many hidden fees? I need a no-fee checking account.	2024-11-22 11:10:00	-0.6	Bank Fee Complaint
+ORG_US_005	3021	Twitter	Sponsoring athletes is costly. Any creative financing options to support brand amb?	2025-01-17 15:45:00	0.6	Sponsorship Loan Interest
+CUST2025H	1098	Facebook	Meal prepping for the family! Need new lunchbox ideas.	2025-01-06 14:00:00	0.5	Parenting Advice
+CUST2025J	4344	Reddit	Why is my gym membership so expensive? Thinking of switching.	2025-01-13 11:45:00	-0.5	Subscription Change
+ORG_US_002	9999	Twitter	Looking for efficient supply chain financing to handle seasonal demand spikes.	2025-02-20 17:27:00	0.6	Supply Chain Optimization
+CUST2025C	5433	Twitter	Capturing beautiful moments with newly bought iphone! Love BNPL!!	2025-01-07 16:30:00	0.8	BNPL Usage
+CUST2025A	3267	Instagram	Excited to get promoted! Time to plan for wealth creation.	2024-12-20 09:22:00	1	Wealth Management
+ORG_US_002	7986	Facebook	Our latest organic products are now available in Whole Foods! Expanding distribution!	2024-11-27 19:27:00	0.7	Sales and Expansion
+CUST2025O	8976	Instagram	Old movies were a delight to eyes. These days, its just action!!!	2025-02-17 07:31:00	-0.2	Generational Gap Complaint
+ORG_US_006	7869	Twitter	The rising costs of premium fabrics is impacting pricing strategy. Exploring financial options.	2025-01-07 16:00:00	-0.5	Cost & Financing Concern
+CUST2025E	9088	Instagram	Just landed in Bali! Best WiFi cafes for digital nomads?	2025-01-08 08:00:00	0.7	Travel and Work Setup
+CUST2025O	3426	Facebook	Trying out new beauty products!	2025-01-09 11:15:00	0.85	

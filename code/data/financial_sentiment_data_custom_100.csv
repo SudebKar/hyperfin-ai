@@ -1,0 +1,101 @@
+slnumber,Post_Id,Platform,Content,Timestamp,Sentiment_Score,Intent
+1,POST-545468,LinkedIn,Cryptocurrency market is showing mixed signals.,2025-03-15 06:40:26,1,Stock Prediction
+2,POST-687800,Financial Blog,Stock prices are dropping unexpectedly.,2025-03-03 04:26:06,1,Economic Outlook
+3,POST-672731,etmarkets,Tech stocks are showing bullish trends.,2025-03-01 16:32:58,-1,Stock Prediction
+4,POST-142414,LinkedIn,Is it a good time to invest in crypto?,2025-03-08 09:42:16,0,Crypto Discussion
+5,POST-173581,investing.com,Stock prices are dropping unexpectedly.,2025-03-18 17:33:11,1,Investment
+6,POST-715324,investing.com,Inflation rates are affecting investment strategies.,2025-03-01 13:39:03,1,Market Analysis
+7,POST-748173,investing.com,Tech stocks are showing bullish trends.,2025-03-08 19:55:08,0,Economic Outlook
+8,POST-466570,investing.com,Should I sell my holdings in this sector?,2025-03-15 17:28:38,-1,Crypto Discussion
+9,POST-413044,Financial Blog,Is it a good time to invest in crypto?,2025-03-14 02:36:03,0,Market Analysis
+10,POST-669333,Reddit,Stock prices are dropping unexpectedly.,2025-03-16 18:20:55,0,Investment
+11,POST-304315,Financial Blog,The market is highly volatile today.,2025-03-06 15:47:47,0,Market Analysis
+12,POST-494553,Twitter,The market is highly volatile today.,2025-02-23 17:40:45,1,Crypto Discussion
+13,POST-462324,etmarkets,Inflation rates are affecting investment strategies.,2025-03-06 18:20:58,-1,Stock Prediction
+14,POST-938683,Reddit,Is it a good time to invest in crypto?,2025-03-22 03:23:46,1,Investment
+15,POST-183990,Twitter,Inflation rates are affecting investment strategies.,2025-03-06 08:20:34,1,Economic Outlook
+16,POST-537895,etmarkets,Strong buy signals for renewable energy stocks.,2025-02-24 10:28:01,1,Earnings Report
+17,POST-434415,investing.com,Should I sell my holdings in this sector?,2025-03-05 02:17:41,-1,Economic Outlook
+18,POST-162832,Financial Blog,Earnings report looks promising for this quarter.,2025-03-05 05:50:40,-1,Earnings Report
+19,POST-609393,investing.com,Earnings report looks promising for this quarter.,2025-03-09 16:07:40,1,Earnings Report
+20,POST-588329,investing.com,Federal Reserve policies impact the market significantly.,2025-03-04 12:34:02,-1,Investment
+21,POST-473414,StockTwits,Cryptocurrency market is showing mixed signals.,2025-03-03 01:35:19,0,Economic Outlook
+22,POST-153525,moneycontrol,Should I sell my holdings in this sector?,2025-02-22 23:40:19,0,Investment
+23,POST-624278,LinkedIn,Cryptocurrency market is showing mixed signals.,2025-03-11 09:26:35,0,Crypto Discussion
+24,POST-782609,investing.com,Stock prices are dropping unexpectedly.,2025-02-28 18:53:55,1,Economic Outlook
+25,POST-190753,moneycontrol,Earnings report looks promising for this quarter.,2025-03-16 23:11:47,0,Investment
+26,POST-746191,StockTwits,Inflation rates are affecting investment strategies.,2025-02-23 00:16:53,0,Investment
+27,POST-687225,LinkedIn,The market is highly volatile today.,2025-03-11 05:42:32,1,Economic Outlook
+28,POST-279401,moneycontrol,Earnings report looks promising for this quarter.,2025-03-16 03:42:55,-1,Economic Outlook
+29,POST-425102,investing.com,Tech stocks are showing bullish trends.,2025-03-14 16:10:13,-1,Crypto Discussion
+30,POST-217786,Twitter,Is it a good time to invest in crypto?,2025-03-09 00:52:20,1,Market Analysis
+31,POST-198472,etmarkets,Tech stocks are showing bullish trends.,2025-02-26 08:02:28,-1,Market Analysis
+32,POST-982807,Twitter,Cryptocurrency market is showing mixed signals.,2025-03-17 21:50:20,0,Investment
+33,POST-692201,LinkedIn,Stock prices are dropping unexpectedly.,2025-03-17 13:13:59,-1,Investment
+34,POST-423146,LinkedIn,Federal Reserve policies impact the market significantly.,2025-03-12 22:57:43,1,Investment
+35,POST-562380,Twitter,Tech stocks are showing bullish trends.,2025-03-15 02:36:18,0,Stock Prediction
+36,POST-391805,Twitter,Cryptocurrency market is showing mixed signals.,2025-03-15 22:50:42,-1,Market Analysis
+37,POST-575492,moneycontrol,Is it a good time to invest in crypto?,2025-03-11 11:04:14,1,Market Analysis
+38,POST-241526,StockTwits,Earnings report looks promising for this quarter.,2025-03-18 03:59:05,1,Earnings Report
+39,POST-478253,investing.com,Inflation rates are affecting investment strategies.,2025-02-28 05:16:07,-1,Earnings Report
+40,POST-822730,etmarkets,Earnings report looks promising for this quarter.,2025-02-23 22:41:34,0,Stock Prediction
+41,POST-170559,etmarkets,Federal Reserve policies impact the market significantly.,2025-03-16 13:40:54,0,Earnings Report
+42,POST-970897,Financial Blog,Cryptocurrency market is showing mixed signals.,2025-03-03 19:46:37,1,Investment
+43,POST-669549,StockTwits,Tech stocks are showing bullish trends.,2025-02-22 14:25:19,1,Stock Prediction
+44,POST-855290,moneycontrol,Earnings report looks promising for this quarter.,2025-03-10 22:06:01,1,Earnings Report
+45,POST-342440,etmarkets,Strong buy signals for renewable energy stocks.,2025-03-02 00:08:17,0,Investment
+46,POST-660603,investing.com,Inflation rates are affecting investment strategies.,2025-02-23 12:11:04,1,Market Analysis
+47,POST-232636,moneycontrol,Cryptocurrency market is showing mixed signals.,2025-03-08 09:42:07,-1,Stock Prediction
+48,POST-660400,moneycontrol,Is it a good time to invest in crypto?,2025-03-20 18:16:48,-1,Economic Outlook
+49,POST-549537,Reddit,Inflation rates are affecting investment strategies.,2025-03-07 17:49:59,1,Crypto Discussion
+50,POST-182144,Financial Blog,Inflation rates are affecting investment strategies.,2025-02-20 00:43:32,1,Economic Outlook
+51,POST-763327,Financial Blog,Federal Reserve policies impact the market significantly.,2025-03-18 23:33:03,-1,Investment
+52,POST-679361,investing.com,Federal Reserve policies impact the market significantly.,2025-02-27 07:56:38,0,Stock Prediction
+53,POST-593889,Financial Blog,The market is highly volatile today.,2025-03-16 04:00:32,1,Economic Outlook
+54,POST-321587,LinkedIn,Earnings report looks promising for this quarter.,2025-03-19 07:09:42,-1,Investment
+55,POST-346765,Twitter,Strong buy signals for renewable energy stocks.,2025-03-21 18:42:42,0,Crypto Discussion
+56,POST-463065,StockTwits,Should I sell my holdings in this sector?,2025-03-20 17:30:51,-1,Crypto Discussion
+57,POST-250060,Reddit,Inflation rates are affecting investment strategies.,2025-02-27 15:53:38,1,Economic Outlook
+58,POST-183581,etmarkets,Inflation rates are affecting investment strategies.,2025-03-01 04:07:58,0,Market Analysis
+59,POST-476772,etmarkets,Earnings report looks promising for this quarter.,2025-03-09 12:53:22,-1,Earnings Report
+60,POST-226539,investing.com,The market is highly volatile today.,2025-02-22 13:31:42,1,Stock Prediction
+61,POST-153725,investing.com,Federal Reserve policies impact the market significantly.,2025-02-24 12:49:44,-1,Investment
+62,POST-542375,StockTwits,Should I sell my holdings in this sector?,2025-02-24 04:10:29,1,Investment
+63,POST-499383,LinkedIn,Stock prices are dropping unexpectedly.,2025-03-12 22:08:17,0,Crypto Discussion
+64,POST-644181,Twitter,Strong buy signals for renewable energy stocks.,2025-03-04 00:25:58,1,Market Analysis
+65,POST-860702,StockTwits,Federal Reserve policies impact the market significantly.,2025-03-05 03:58:53,0,Market Analysis
+66,POST-598366,investing.com,Inflation rates are affecting investment strategies.,2025-02-21 08:22:39,-1,Market Analysis
+67,POST-269389,investing.com,Strong buy signals for renewable energy stocks.,2025-03-12 09:54:38,0,Crypto Discussion
+68,POST-975111,StockTwits,Strong buy signals for renewable energy stocks.,2025-02-26 01:28:43,-1,Economic Outlook
+69,POST-119087,Twitter,Is it a good time to invest in crypto?,2025-03-15 16:59:21,0,Stock Prediction
+70,POST-778879,Twitter,Should I sell my holdings in this sector?,2025-02-21 18:17:06,0,Investment
+71,POST-891860,LinkedIn,Stock prices are dropping unexpectedly.,2025-02-22 21:28:17,0,Market Analysis
+72,POST-792940,investing.com,Strong buy signals for renewable energy stocks.,2025-03-17 11:53:33,0,Stock Prediction
+73,POST-468763,LinkedIn,Tech stocks are showing bullish trends.,2025-03-11 19:21:09,0,Economic Outlook
+74,POST-270681,Financial Blog,Cryptocurrency market is showing mixed signals.,2025-03-02 05:15:36,1,Market Analysis
+75,POST-407509,moneycontrol,Strong buy signals for renewable energy stocks.,2025-03-21 21:12:22,0,Crypto Discussion
+76,POST-577335,LinkedIn,Tech stocks are showing bullish trends.,2025-03-02 12:37:02,0,Economic Outlook
+77,POST-292566,StockTwits,Strong buy signals for renewable energy stocks.,2025-03-06 12:43:50,-1,Crypto Discussion
+78,POST-568126,LinkedIn,Inflation rates are affecting investment strategies.,2025-03-12 16:34:58,-1,Crypto Discussion
+79,POST-910420,investing.com,Should I sell my holdings in this sector?,2025-02-26 22:02:02,1,Stock Prediction
+80,POST-838348,etmarkets,Strong buy signals for renewable energy stocks.,2025-03-15 17:52:14,0,Investment
+81,POST-421163,Reddit,Stock prices are dropping unexpectedly.,2025-02-28 08:39:19,0,Economic Outlook
+82,POST-362861,LinkedIn,Strong buy signals for renewable energy stocks.,2025-03-07 05:17:44,0,Earnings Report
+83,POST-472442,Financial Blog,Is it a good time to invest in crypto?,2025-02-24 01:11:44,1,Market Analysis
+84,POST-116133,Financial Blog,Stock prices are dropping unexpectedly.,2025-03-09 09:50:59,0,Market Analysis
+85,POST-955163,moneycontrol,Should I sell my holdings in this sector?,2025-03-10 08:39:05,1,Investment
+86,POST-642493,Reddit,Federal Reserve policies impact the market significantly.,2025-03-09 07:18:28,-1,Crypto Discussion
+87,POST-174006,Reddit,Cryptocurrency market is showing mixed signals.,2025-03-14 07:20:29,1,Economic Outlook
+88,POST-358598,Reddit,Stock prices are dropping unexpectedly.,2025-03-17 02:12:50,-1,Earnings Report
+89,POST-924923,Financial Blog,Strong buy signals for renewable energy stocks.,2025-02-22 13:34:31,1,Market Analysis
+90,POST-759043,Reddit,Stock prices are dropping unexpectedly.,2025-03-10 14:19:47,1,Stock Prediction
+91,POST-841839,moneycontrol,Tech stocks are showing bullish trends.,2025-02-20 17:37:20,1,Stock Prediction
+92,POST-815640,Twitter,Stock prices are dropping unexpectedly.,2025-03-18 18:22:49,0,Economic Outlook
+93,POST-650143,StockTwits,Earnings report looks promising for this quarter.,2025-03-02 02:10:27,1,Investment
+94,POST-790600,moneycontrol,Tech stocks are showing bullish trends.,2025-02-26 03:50:17,0,Crypto Discussion
+95,POST-938481,LinkedIn,Cryptocurrency market is showing mixed signals.,2025-03-16 13:01:16,1,Crypto Discussion
+96,POST-307931,StockTwits,The market is highly volatile today.,2025-03-18 07:40:53,0,Stock Prediction
+97,POST-741953,Financial Blog,Tech stocks are showing bullish trends.,2025-02-24 02:47:56,-1,Economic Outlook
+98,POST-928944,etmarkets,Stock prices are dropping unexpectedly.,2025-03-06 01:24:26,1,Investment
+99,POST-371753,Financial Blog,The market is highly volatile today.,2025-02-27 07:51:03,1,Stock Prediction
+100,POST-115002,moneycontrol,Strong buy signals for renewable energy stocks.,2025-03-11 10:37:45,1,Earnings Report

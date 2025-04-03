@@ -1,0 +1,13 @@
+Customer_id	Age	Gender	Location	Interests	Preferences	Income per	Education	Occupation
+CUST2025A	25	F	New York	Luxury Shopping, Travel, Dining	Discounts, New Arrivals	180000	Master's	Marketing Manager
+CUST2025B	30	M	San Francisco	Budget Shopping, Dining, Mortgage Payments	Home Loan, Retirement Saving, ETFs	90000	Graduate	Software Engineer
+CUST2025E	22	F	Los Angeles	Flights, Hotels, Adventure Activities, Cameras	Travel Credit Cards, Digital Banking, International Insurance	85000	Graduate	Travel Blogger
+CUST2025H	77	M	Seattle	Family Vacations, Kids, Education, Home Essentials	Health Insurance, Travel Credit Cards, Gym Subscription	100000	MBA	HR Manager
+CUST2025I	45	M	Austin	Gaming, Tech Gadgets, Streaming Subscriptions	Health Insurance, Travel Credit Cards, Gym Subscription	70000	Under Graduate	Fitness Coach
+CUST2025M	45	M	New York	Tech Gadgets, Professional Development, Adventure	Tax Savings, Insurance, Digital Banking	120000	MBA	Financial Advisor
+CUST2025D	66	M	Chicago	Healthcare, Fixed Deposits, Insurance	Certificates of Deposits, Medicare Plans, Pension Management	55000	Graduate	Retired with Pension
+CUST2025S	40	M	Seattle	Finance Investments, Real Estate, Business Network	Wealth Management, Home Loans, Small Business Financing	85000	MBA	Bank Manager
+CUST2025Q	36	F	Boston	Professional Development, Family Activities, Wellness	Retirement plans, Health & Life Insurance, Tax Saving	110000	Master's	Insurance Agent
+CUST2025P	28	F	Denver	Gaming, Tech Gadgets, Streaming Subscriptions	BNPL, Crypto, Subscription Services	60000	Graduate	Software Engineer and AI
+CUST2025O	42	M	Portland	Fine Dining, Luxury Travel, High-End Gadgets	Private Banking, Investment Portfolios, Tax Advisory	225000	MBA	Wealth Manager
+CUST2025C	26	M	Chicago	Online Shopping, Food Delivery, Travel	Crypto, Digital Banks, BNPL	67000	Graduate	Social Media Influencer
